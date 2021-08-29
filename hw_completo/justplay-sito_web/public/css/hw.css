@@ -1,0 +1,722 @@
+html{
+    font-size: 30px;   
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    
+    background-image: url(https://www.gamelegends.it/wp-content/uploads/2019/02/kingdom-hearts-3-guida-come-sbloccare-finale-segreto-v5-362227-1280x720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:500px;
+    position:relative;
+    font-family: 'Raleway', Helvetica;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header::before {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+}  
+
+#logo {
+    color:red;
+    z-index:1;
+    font-size:3rem;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue',Arial, Helvetica, sans-serif;
+    font-weight:500;
+    font-style: normal;
+    line-height: normal;
+    position:absolute;
+    top:0;
+    left:0;
+    margin-left: 5%;
+}
+
+#frase_comm{
+    color:white;
+    z-index:1;
+    font-family: 'Bilbo Swash Caps','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight:normal;
+    font-style: normal;
+    line-height: normal;
+}
+
+#b_info{
+    background-color:black;
+    margin:0;
+ }
+
+
+ #flex_nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height:30%;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width:40%; 
+}
+
+.navig{
+    cursor: pointer;
+    border-radius: 15px;
+    border:2px solid white;
+    font-size: 0.55rem;
+    color:white;
+    margin-top: 5%;
+    padding:5px;
+    font-family: 'Amiri', Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+}
+.navig:hover{
+    font-style: italic;
+    color:blue;
+}
+
+.show_main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:column;
+}
+.main_flex{
+    background-color:rgba(255, 255, 255, 0.788);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius:10px;
+    width:80%;
+    position:relative;
+}
+
+.main_flex_cards_tre{
+    background-color:rgba(255, 255, 255, 0.788);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:10px;
+    width:80%;
+    position:relative;
+}
+
+.main_login{
+    background-color:rgba(255, 255, 255, 0.788);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:10px;
+    width:80%;
+}
+.hidden{
+    display:none;
+}
+.pag{
+    font-size: 0.8rem;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    color:black;
+    position:absolute;
+    bottom:0;
+    right:0;
+    background-color: rgba(4, 65, 199, 0.788);
+    color:white;
+    cursor: pointer;
+    z-index:1;
+}
+
+.p_totale{
+    font-size: 0.8rem;;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    color:black;
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:1;
+}
+
+#search{
+    width:300px;
+    height:40px;
+    margin-left:57%;
+}
+
+
+.giochi {
+    margin:4%;
+    left: 0.4%;
+    margin-bottom: 10%;
+    height:350px;
+    width:180px;
+    position:relative;
+}
+
+.fumetti{
+    margin:4%;
+    margin-right: -1%;
+    height:350px;
+    width:180px;
+    
+}
+.carte{
+    margin:4%;
+    margin-bottom: 10%;
+    height:350px;
+    width:180px;
+    position:relative;
+}
+.image{
+   width:100%;
+   height:68%;
+   
+}
+.nome{
+    font-size: 0.7rem;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    color:black;
+}
+
+.nome_fumetti{
+    font-size: 0.7rem;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    color:black;
+    margin-right: 15%;
+}
+.prezzo{
+    font-size: 0.7rem;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    color:black;
+}
+.dettagli{
+    font-size: 0.6rem;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+    font-style:italic;
+    line-height: 100%;
+    color:black;
+    margin-top:6px;
+    cursor: pointer;
+}
+.descrizione{
+    font-size: 0.45rem;
+    font-style:italic;
+    line-height: 100%;
+    color:black;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+}
+.bottone{
+    top:0;
+    right: 0;
+    position: absolute;
+    height:10%;
+    width:16%;
+    border:1px solid black;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.bottone:active{
+    height:12%;
+    width:18%;
+}
+
+.bottone_mini{
+    top:0;
+    right: 0;
+    position: absolute;
+    height:7%;
+    width:10%;
+    border:1px solid black;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.b_rimozione{
+    top:0;
+    right: 0;
+    position: absolute;
+    height:8%;
+    width:16%;
+    border:1px solid black;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+footer{
+    
+    background-color: rgb(95, 92, 92);
+    color:red;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+
+footer a{
+color:rgb(241, 241, 241);
+cursor: pointer;
+text-decoration: none;
+font-size:0.7rem;
+font-family: "Cinzel",Arial, Helvetica, sans-serif;
+font-style:normal;
+font-weight: normal;
+line-height: normal;
+text-transform: uppercase;
+}
+
+
+
+#abs_footer{
+    display:flex;
+    bottom:0;
+    right:0;
+    position: absolute;
+    justify-content: flex-end;
+    margin-left: 2px;
+    color:rgb(241, 241, 241); 
+    text-transform: uppercase;
+    font-family: "Cinzel",Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+    font-weight: normal;
+    font-style: italic;
+    line-height:normal;
+}
+
+.int_esp{
+    color:white;
+    text-align: center;
+}
+
+#form{
+    text-align: center;
+}
+
+#form_m{
+    text-align: center;
+}
+#aux{
+    background-color:rgba(255, 255, 255, 0.788);
+    height:400px;
+    width:80%;
+    border-radius:10px;
+}
+
+.desc_t_c{
+    font-size: 0.8rem;
+    font-style:italic;
+    line-height: 100%;
+    color:black;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+}
+.desc_t_c:hover{
+    color:blue;
+}
+.int_esp{
+    font-family: 'Amiri', Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    color:white;
+    font-size:1.2rem;
+}
+.url{
+    font-size: 1rem;
+    font-style:italic;
+    line-height: 100%;
+    color:black;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight:600;
+    
+}
+.url:hover{
+    color:blue;
+    font-weight: bold;
+}
+.coms{
+    
+    margin:4%;
+    height:350px;
+    width:180px;
+    text-align: center;
+}
+
+
+#f_login{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.pg{
+    height:500px;
+    display:block;
+    background-color:rgba(255, 255, 255, 0.788);
+    width:80%;
+    border-radius:10px;
+    text-align: center;
+}
+
+.errore{
+    border:1px solid red;
+}
+
+.ok{
+    border: 1px solid green;
+}
+
+.err_login{
+    color: red;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+#err_u, #err_p,#err_data,#err_email{
+    color:rgb(238, 14, 14);
+    font-size: 0.6rem;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 700;
+    text-align:start;
+}
+
+.err_campo{
+    color:rgb(238, 14, 14);
+    font-size: 0.6rem;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 700;
+    text-align:start;
+}
+
+.main_cart{
+    background-color:rgba(255, 255, 255, 0.788);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius:10px;
+    width:80%;
+    position:relative;
+    text-align: center;
+}
+
+#modale{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
+
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modale img{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+#modale.hidden{
+    display:none;
+}
+
+.login-signup{
+    color:black;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+a.login-signup:hover{
+    font-style: italic;
+}
+
+.ris_null{
+    padding:20%;
+    margin-left: 5.5%;
+    margin-top: -8%;
+    font-family: 'Amiri', Helvetica, sans-serif;
+}
+
+.ris_null_comics{
+    padding:20%;
+    margin-top: -7%;
+    margin-left: 20%;
+    font-size: 120%;
+    font-family: 'Amiri', Helvetica, sans-serif;
+}
+
+.mex_carta{
+    padding:20%;
+    margin-top: -10%;
+    font-family: 'Amiri', Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+#m_mob div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 2px;
+}
+
+#m_mob{
+     display: none;
+ }
+
+
+
+
+
+@media (max-width: 800px) {
+    html {
+    font-size: 11px;
+    }
+    #search{
+        width:75%;
+        height:40px;
+        margin-left:0.5%
+        
+    }
+    header{
+        height:300px;
+        width: 100%;
+        
+    } 
+    footer{
+        height:50px;
+        width: 100%;
+    } 
+    .main_flex{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main_flex_cards_tre{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main_cart{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #sign{
+        padding:15%
+    }
+    #log{
+        margin:30%;
+    }
+
+    .login-signup{
+        font-size: 2rem;
+    }
+    #err_campo{
+        font-size: 1.8rem;
+    }
+    #err_u,#err_p{
+        font-size: 1.8rem;
+    }
+
+    .err_login{
+        font-size:2rem;
+    }
+    .giochi{
+        margin:15%;
+        margin-bottom: 35%;
+    } 
+    .fumetti{
+        margin:15%;
+        text-align: center;
+    }
+    .nome_fumetti{
+        font-size: 1.7rem;
+        margin-right: -1%;
+    }
+    .prezzo{
+        font-size: 1.5rem;
+    }
+    .nome{
+        font-size: 1.7rem;
+    }
+     .dettagli{
+        font-size: 1.7rem;
+    }
+    .descrizione{
+        font-size: 1.6rem;
+    }
+    .desc_t_c{
+        font-size:1.4rem;
+        
+    }
+    .coms{
+        margin:13%;
+    }
+    .ris_null_comics{
+        padding:35%;  
+        font-size: 250%;
+        margin-left: -0.5%;
+    }
+    .ris_null{
+        padding:35%;  
+        font-size: 250%;
+        margin-left: -3%;
+    }
+    .p_totale{
+        font-size: 1.5rem;
+    }
+    .pag{
+        font-size: 1.3rem;
+    }
+
+    .mex_carta{
+        padding:30%;
+        font-size: 2rem;
+        margin-left:3%;
+    }
+
+    #flex_nav{ 
+        display: none;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    #bg{
+        position: absolute;
+        top:0;
+        left:0;
+        height: 100vh;
+        width: 100%;
+    
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 3;
+        display: flex;
+        justify-content:flex-end;
+        align-items:center;
+    }
+
+    #bg.hidden{
+        display: none;
+    }
+
+    #m_mob { 
+        display: block; 
+        margin-right: 3%;
+        position:absolute;
+        top:0;
+        right:0;
+    }
+
+    #main_link{
+        z-index: 4;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(70, 70, 70);
+        
+    }
+    .mobile-link{
+        margin-top: 30px;
+        color:white;
+        cursor: pointer;
+        z-index:3;
+        font-family: 'Amiri', Helvetica, sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .mobile-link:active{
+        text-transform: none;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+@media (width:280px){
+html{
+    font-size:10px;
+}
+.giochi{
+    height:7%;
+    margin:15%;
+}
+}
+@media(width:768px){
+    html{
+        font-size:25px;
+    }
+    .giochi{
+        height:10%;
+    }
+    
+    footer{
+        height:100px;
+    }
+}
